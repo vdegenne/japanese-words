@@ -4,7 +4,7 @@ const bodyParser = require('koa-body')
 const cors = require('@koa/cors')
 const fs = require('fs')
 
-const file = './data/jlpt3.json'
+const file = './data/jlpt2-words.json'
 
 // Load the data and initiate the save timer
 let data = JSON.parse(fs.readFileSync(file))
